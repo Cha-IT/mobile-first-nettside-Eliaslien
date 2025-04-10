@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="nb">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cafè Ye Ye - Bestillinger</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#home">Hjem</a></li>
+        <li><a href="#menu">Meny</a></li>
+        <li><a href="#order">Bestill</a></li>
+        <li><a href="#contact">Kontakt</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home">
+      <h1>Velkommen til Cafè Ye Ye</h1>
+      <p>Oppdag våre fantastiske kortreiste hjemmelagde produkter fra Cafe Ye Ye</p>
+    </section>
+
+    <section id="menu">
+      <h2>Meny</h2>
+      <ul id="menu-list"></ul>
+    </section>
+
+    <section id="order">
+      <h2>Din Bestilling</h2>
+      <form id="order-form">
+        <input type="text" id="name" placeholder="Navn" required>
+        <input type="tel" id="phone" placeholder="Telefonnummer" required>
+      </form>
+      <ul id="order-list"></ul>
+      <button id="submit-order">Send Bestilling</button>
+    </section>
+
+    <section id="contact">
+      <h2>Kontakt Oss</h2>
+      <p>Adresse: Kaffegatan, Finland</p>
+      <p>Telefon: 123 45 678</p>
+      <div id="map">
+        <div id="map">
+            <iframe src= "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2119.172372709542!2d25.1449511!3d60.2048365!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46920f05dab6145b%3A0x1d894fe0f2746205!2sKahvikatu%2C+00990+Helsinki%2C+Finland!5e0!3m2!1sen!2sno!4v1681698191873!5m2!1sen!2sno"  frameborder="0" allowfullscreen></iframe>
+          </div>
+          
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Cafè Ye Ye</p>
+  </footer>
+
+  <div id="notification">Bestillingen er sendt!</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
