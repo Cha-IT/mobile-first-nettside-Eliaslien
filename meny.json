@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Cappuccino",
+    "price": 45
+  },
+  {
+    "name": "Latte",
+    "price": 50
+  },
+  {
+    "name": "Americano",
+    "price": 40
+  },
+  {
+    "name": "Croissant",
+    "price": 30
+  },
+  {
+    "name": "Ostesmørbrød",
+    "price": 55
+  },
+  {
+    "name": "Grønn smoothie",
+    "price": 60
+  },
+  {
+    "name": "Havrelatte",
+    "price": 52
+  }
+]
